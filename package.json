@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npx wrangler deploy --assets=./dist --name=portfolio --compatibility-date=2025-06-29"
   },
   "devDependencies": {
     "typescript": "~5.8.3",
